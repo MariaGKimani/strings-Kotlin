@@ -2,8 +2,9 @@ fun main(){
     character()
    var nameAge = name("Maria",22)
     println(nameAge)
-    println(string(24))
+
     new("Goretti")
+    side()
 
 }
 
@@ -21,11 +22,14 @@ fun name(nameH: String, age: Int): String{
 
 //Question 3
 
-fun string(len: Int):Int{
-    var results = len
-    return results
+fun side() :String{
+    var sn = "i  love to travel"
+    println(sn.length)
+    return sn
+
 
 }
+
 
 //Question 4
 fun new(newName: String){
